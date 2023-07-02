@@ -1,0 +1,33 @@
+{
+  "name": "gptaudiowebapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Pawan Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@google-cloud/speech": "^5.5.0",
+    "browser-env": "^3.3.0",
+    "cors": "^2.8.5",
+    "exponential-backoff": "^3.1.1",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "mic": "^2.1.2",
+    "navigator": "^1.0.1",
+    "node-aplay": "^1.0.3",
+    "node-wav-player": "^0.2.0",
+    "nodemon": "^2.0.22",
+    "openai": "^3.3.0",
+    "socket.io": "^4.7.0",
+    "socket.io-client": "^4.7.0",
+    "sound-play": "^1.1.0",
+    "sox": "^0.1.0",
+    "stream": "^0.0.2",
+    "wav": "^1.0.2"
+  }
+}
